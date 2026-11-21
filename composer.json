@@ -1,0 +1,17 @@
+{
+    "name": "local/cache-store",
+    "description": "File based cache with ttl, locks and a tiny http client",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cache\\Store\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "php examples/basic.php"
+    }
+}
